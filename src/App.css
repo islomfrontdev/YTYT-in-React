@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom_div {
+  background-color: #e7f4f8;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn_registration {
+  border-radius: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn_signup {
+  border-radius: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.br_header {
+  border-radius: 75px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.orange_span {
+  color: #f15525;
+}
+.italic_span {
+  font-family: italic;
+}
+.orange_btn {
+  background-color: #f15525;
+  border-radius: 82px;
+}
+.ml_div {
+  margin-left: 85px;
+}
+.down_btn {
+  background-color: #fff;
+  border: solid 15px #e7f4f8;
+  border-radius: 50%;
+  margin-top: -43px;
+}
+.br_div {
+  border-radius: 50px;
+}
+.lb_btn {
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #5096ff;
+  border-radius: 30px;
+}
+.lo_btn {
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #ffb359;
+  border-radius: 30px;
+}
+.lr_btn {
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #ff6f50;
+  border-radius: 30px;
+}
+.lg_btn {
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #4bd071;
+  border-radius: 30px;
+}
+.vlb_btn {
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #50c0ff;
+  border-radius: 30px;
+}
+.db_btn {
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #4b77b9;
+  border-radius: 30px;
+}
+.lp_btn {
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #af93ff;
+  border-radius: 30px;
+}
+.course-box {
+  background-color: #eaf2f5;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
